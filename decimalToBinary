@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int binary(int a){
+    if(a == 0){
+        return 0;
+    }
+    else{
+        return a%2 + 10 * binary(a/2);
+    }
+}
+
+int main(){
+   int a;
+   printf("Podaj liczbe w postaci dziesietnej: ");
+   scanf("%d", &a);
+   
+   printf("Ta liczba binarnie to: %d\n", binary(a));
+}
