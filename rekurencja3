@@ -1,0 +1,34 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+
+
+void szukaj(int x, int tablica[], int i, int n){
+    if(i == n){
+        printf("NIE");
+        return;
+    }
+    else {
+        if(x == tablica[i]){
+            printf("OK"); 
+            return;
+        } else{
+            szukaj(x, tablica, i+1, n);
+        }
+    }
+}
+
+
+
+
+
+int main(void){
+    
+    int x; 
+    int tablica[] = {1, 2, 3, 4, 5, 7, 10};
+    
+    printf("Podaj liczbe: \n");
+    scanf("%d", &x);
+    
+    szukaj(x, tablica, 0, 7);
+}
