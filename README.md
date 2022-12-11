@@ -18,7 +18,7 @@
 - [Kacper Cichoszewski](https://github.com/kcichoszewski444/ug) gr. 2 +++
 - [Mateusz Kłosinski](https://github.com/mklosinski1/mklosinski/) gr. 2 +++
 - [Jakub Jankowski](https://github.com/qn3k/Cwiczenia) gr. 4 ++
-- [Aleksander Kozłowicz](https://github.com/Aleks277/newproject) gr.4 ++
+- [Aleksander Kozłowicz](https://github.com/Aleks277/newproject) gr.4 +++
 - [Dominik Kuzimski](https://github.com/dkuzimski/SPJP) gr. 4 ++
 - [Tomasz Roksz](https://github.com/tomaszroksz/SPJP) gr. 4 ++
 - [Łukasz Cichy](https://github.com/lcichy16/Laboratorium) gr. 4 ++
