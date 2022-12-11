@@ -1,0 +1,36 @@
+# include <stdio.h>
+# include <conio.h>
+
+
+int rekur_euk(int a, int b)
+{
+    if (b==0) return a;
+    else return rekur_euk(b,(a%b));
+}
+
+int main (void)
+{
+    int a,b,r;
+    printf("a = "); scanf("%d", &a);
+    printf("b = "); scanf("%d", &b);
+    if (a>b){
+    do{
+        r=a%b;
+        a=b;
+        b=r;
+      }
+    while (b);
+    printf("NWD = %d", a);
+    }
+    else{
+    do{
+        r=b%a;
+        b=a;
+        a=r;
+      }
+    while (a);
+    printf("NWD = %d", b);
+    }
+    getch();
+    return 0;
+}
