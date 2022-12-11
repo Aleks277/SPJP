@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int suma(int a){
+        if(a <= 0){
+            return 0;
+        }else{
+            printf("%d\n", a);
+            return suma(a - 1) + a ;
+        }
+    }
+
+
+int main(){
+   int a;
+   printf("Liczba n: ");
+   scanf("%d", &a);
+   
+   printf("Suma wszystkich cyfr od zera do n: %d\n", suma(a));
+}
